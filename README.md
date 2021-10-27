@@ -39,6 +39,7 @@ sudo docker stop <container-id/name>
 ```bash
 sudo docker rm <container-id/name>
 ```
+> ProTip: you can simply provide the first few strings of the container id, but make sure its different than anyother docker container id. Example - `sudo docker run a30dad`
 8. List all images 
 ```bash
 sudo docker images
@@ -56,4 +57,16 @@ sudo docker pull <image-name>
 sudo docker run <image-name> <process>
 ```
 example - `sudo docker run ubuntu sleep 5`
-12. 
+12. Execute a command in the docker container
+```bash
+sudo docker exec <container-id/name> <command>
+```
+example - `sudo docker exec brave_leakey ls -al`
+13. Run docker in attach mode
+```bash
+sudo docker run <dockerfile>
+```
+14. Run docke in detach mode
+```bash
+sudo docker run -d <dockerfile>
+```
