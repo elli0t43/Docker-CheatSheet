@@ -35,7 +35,7 @@ sudo docker run <image-name>
 ```bash
 sudo docker stop <container-id/name>
 ```
-7. Remove a container permanenently
+7. Remove a container permanently
 ```bash
 sudo docker rm <container-id/name>
 ```
