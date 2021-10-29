@@ -27,7 +27,7 @@ sudo docker ps
 ```bash
 sudo docker ps -a 
 ```
-5. Rrun an image
+5. To run an image
 ```bash
 sudo docker run <image-name>
 ```
@@ -66,7 +66,7 @@ example - `sudo docker exec brave_leakey ls -al`
 ```bash
 sudo docker run <dockerfile>
 ```
-14. Run docke in detach mode
+14. Run docker in detach mode
 ```bash
 sudo docker run -d <dockerfile>
 ```
