@@ -70,3 +70,17 @@ sudo docker run <dockerfile>
 ```bash
 sudo docker run -d <dockerfile>
 ```
+
+# Intermediate Commands CheatSheet 
+
+### Run command
+1. To run a specific image version
+```bash
+sudo docker run <image-name>:<version>
+```
+Example - `sudo docker run redis:4.0`
+2. To run the docker file in interactive mode
+```bash
+sudo docker run -i <docker-file>
+```
+3. 
