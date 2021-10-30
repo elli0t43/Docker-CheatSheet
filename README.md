@@ -83,4 +83,16 @@ Example - `sudo docker run redis:4.0`
 ```bash
 sudo docker run -i <docker-file>
 ```
-3. 
+3. To run the docker file in interactive with terminal mode
+```bash
+sudo docker run -it <docker-fil>
+```
+4. To port map a docker container
+```bash
+sudo docker run -p <new-port-number>:<old-port-number> <docker-file>
+```
+5. To volume map inside a docker container
+```bash
+sudo docker run -v /opt/datedir:/var/lib/mysql mysql
+```
+
