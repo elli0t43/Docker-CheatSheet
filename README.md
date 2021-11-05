@@ -95,4 +95,13 @@ sudo docker run -p <new-port-number>:<old-port-number> <docker-file>
 ```bash
 sudo docker run -v /opt/datedir:/var/lib/mysql mysql
 ```
+6. Inspect Container
+```bash
+sudo docker inspect <container-id/name>
+```
+7. Container logs
+```bash
+sudo docker logs <container-id/name>
+```
+
 
