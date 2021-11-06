@@ -39,7 +39,7 @@ sudo docker stop <container-id/name>
 ```bash
 sudo docker rm <container-id/name>
 ```
-> ProTip: you can simply provide the first few strings of the container id, but make sure its different than anyother docker container id. Example - `sudo docker run a30dad`
+> Pro Tip: you can simply provide the first few strings of the container id, but make sure its different than anyother docker container id. Example - `sudo docker run a30dad`
 8. List all images 
 ```bash
 sudo docker images
@@ -116,7 +116,7 @@ example
 ```bash
 sudo docker build dockerfile -t elli0t43/test-dockerimage
 ```
->Pro Tip: Dockerfile uses a specific indentation or Instruction and Argument format, The all uppercase words like `RUN`,`FROM`,`COPY` etc are Instruction, and generally written in uppercase, after that there the Argument, like `sudo apt update`, `apt-get install python`.
+>Pro Tip: Dockerfile uses a specific indentation or Instruction and Argument format, The uppercase words like `RUN`,`FROM`,`COPY` etc are Instruction, and generally written in uppercase, after that their is Argument, Which is generally some commands that needs to be ran, or be excuted with their Instruction, like `sudo apt update`, `apt-get install python`.
 2. Push your docker image,(By pushing your image will available to others)
 ```bash
 sudo docker push <docker-image-name>
