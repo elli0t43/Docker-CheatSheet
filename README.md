@@ -107,5 +107,20 @@ sudo docker logs <container-id/name>
 ```bash
 sudo docker run -e <env variable> <container-id/name>
 ```
+### Build Command
+1. Building a docker image (This image will only be available to local only)
+```bash
+sudo docker build <dockerfile> -t <docker-image-name>
+```
+example
+```bash
+sudo docker build dockerfile -t elli0t43/test-dockerimage
+```
+>Pro Tip: Dockerfile uses a specific indentation or Instruction and Argument format, The all uppercase words like `RUN`,`FROM`,`COPY` etc are Instruction, and generally written in uppercase, after that there the Argument, like `sudo apt update`, `apt-get install python`.
+2. Push your docker image,(By pushing your image will available to others)
+```bash
+sudo docker push <docker-image-name>
+```
+
 
 
