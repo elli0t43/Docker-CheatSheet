@@ -103,5 +103,9 @@ sudo docker inspect <container-id/name>
 ```bash
 sudo docker logs <container-id/name>
 ```
+8. Set an Env variable inside docker
+```bash
+sudo docker run -e <env variable> <container-id/name>
+```
 
 
